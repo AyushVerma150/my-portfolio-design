@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  max-height: 50%;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.click_me {
+  width: 15%;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #0ff;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.intro_example {
+  height: 400px;
+  font-family: "Bebas Neue", cursive;
+  background-image: url("../../Assets/Bg-Large.jpg");
+}
+
+/* Height for devices larger than 992px */
+@media (min-width: 992px) {
+  .intro-example {
+    height: 600px;
+  }
+}
