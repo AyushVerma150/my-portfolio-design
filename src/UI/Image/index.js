@@ -10,7 +10,7 @@ const ImageComponent = () => {
         }}>
         <div class="d-flex justify-content-center align-items-center p-3">
           <div class="text-white p-5">
-            <h1 class="mb-5">
+            <h1 class="mb-4">
               Our Technical Stack Includes <TextAnimation />
             </h1>
             <h5 className="mb-4">Best & free guide of responsive web design</h5>
